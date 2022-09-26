@@ -20,8 +20,7 @@ def get_allStudentColors():
         randomNum = random.randint(0, 3)
         newColor = get_color(randomNum)
         students_array.append(newColor)
-    print(students_array)
-
+    return students_array
 
 
 print(get_allStudentColors())
